@@ -94,6 +94,14 @@ ul {
   position: relative;
 }
 
+.links > li a {
+  color: #000;
+}
+
+.links > li a:hover {
+  color: #0095FF;
+}
+
 .additional-links {
   bottom: 0;
   display: none;
