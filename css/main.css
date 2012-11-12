@@ -41,6 +41,19 @@ p {
   text-align: justify;
 }
 
+a:active,
+a:hover,
+a:link,
+a:visited {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0095FF;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -78,4 +91,24 @@ ul {
   float: left;
   font-size: 0.8em;
   padding: 0 15px;
+  position: relative;
 }
+
+.additional-links {
+  bottom: 0;
+  display: none;
+  padding-bottom: 40px;
+  position: absolute;
+  width: 400px;
+}
+
+li:hover .additional-links {
+  display: block;
+}
+
+  .additional-links li {
+    font-size: 1.2em;
+    float: none;
+    line-height: 1.4em;
+    padding: 10px 0;
+  }
