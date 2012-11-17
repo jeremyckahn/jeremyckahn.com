@@ -68,7 +68,6 @@ ul {
 
 .content {
   margin-top: 46px;
-  width: 600px;
 }
 
 .copy-container {
@@ -76,47 +75,89 @@ ul {
   width: 400px;
 }
 
-.footer {
-  bottom: 0;
-  left: 50%;
-  position: fixed;
+/* Larger viewports */
+@media only screen and (min-width: 1024px) {
+
+  .footer {
+    bottom: 0;
+    left: 50%;
+    position: fixed;
+  }
+
+  .links {
+    left: -50%;
+    position: relative;
+  }
+
+  .links li {
+    float: left;
+  }
+
+  li:hover .additional-links {
+    display: block;
+  }
+
+  .additional-links {
+    bottom: 0;
+    display: none;
+    padding-bottom: 40px;
+    position: absolute;
+    width: 400px;
+  }
+
+    .additional-links li {
+      font-size: 1.2em;
+      float: none;
+      line-height: 1.4em;
+      padding: 10px 0;
+    }
+
+  .links > li a {
+    color: #000;
+  }
+
 }
 
-.links {
-  left: -50%;
-  position: relative;
+/* Smaller viewports */
+@media only screen and (max-width: 1024px) {
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .footer {
+    font-size: 1.4em;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .links li {
+    text-align: center;
+  }
+
+    .additional-links li {
+      font-size: 0.8em;
+      float: none;
+      line-height: 1em;
+      padding: 10px 0;
+    }
+
+      .additional-links li a {
+        color: #666;
+      }
+
 }
 
-.links li {
-  float: left;
+.links > li {
   font-size: 0.8em;
   padding: 0 15px;
   position: relative;
 }
 
-.links > li a {
-  color: #000;
-}
-
-.links > li a:hover {
-  color: #0095FF;
-}
-
-.additional-links {
-  bottom: 0;
-  display: none;
-  padding-bottom: 40px;
-  position: absolute;
-  width: 400px;
-}
-
-li:hover .additional-links {
-  display: block;
-}
-
-  .additional-links li {
-    font-size: 1.2em;
-    float: none;
-    line-height: 1.4em;
-    padding: 10px 0;
+  .links > li a:hover {
+    color: #0095FF;
   }
