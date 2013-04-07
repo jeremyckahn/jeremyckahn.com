@@ -11,9 +11,8 @@
   display: inline-block;
 }
 
-h1, h2 {
-  margin: 0;
-  text-align: center;
+.center {
+  margin: 0 auto;
 }
 
 h1 {
@@ -21,24 +20,28 @@ h1 {
   margin-top: 12px;
 }
 
+h1, h2 {
+  margin: 0;
+  text-align: center;
+}
+
 h2 {
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 4px;
-  text-transform: lowercase;
 }
 
-h2:before {
-  content: "("
-}
-
-h2:after {
-  content: ")"
+h3 {
+  font-size: 1.6em;
 }
 
 p {
+  text-align: justify;
+}
+
+p,
+ul li {
   font-size: 1.2em;
   line-height: 1.5em;
-  text-align: justify;
 }
 
 a:active,
@@ -55,71 +58,79 @@ a:hover {
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-}
-
-.center {
-  margin: 0 auto;
+  padding: 8px 0 8px 54px
 }
 
 .main {
-}
-
-.content {
-  margin-top: 46px;
+  position: relative;
+  width: 800px;
 }
 
 .copy-container {
   margin-top: 34px;
+  width: 800px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links > li {
+  font-size: 0.8em;
+  position: relative;
+  text-align: center;
+  width: 114px;
+}
+
+    .links > li a:hover {
+      color: #0095FF;
+    }
+
+.links {
+  position: relative;
+  width: 100%;
+}
+
+.links li {
+  float: left;
+}
+
+li:hover .additional-links {
+  display: block;
+  text-align: left;
+}
+
+.additional-links {
+  bottom: 40px;
+  display: none;
+  margin-left: 11px;
+  position: absolute;
   width: 400px;
 }
 
-/* Larger viewports */
-@media only screen and (min-width: 1024px) {
-
-  .footer {
-    bottom: 0;
-    left: 50%;
-    position: fixed;
+  .additional-links li {
+    font-size: 1.2em;
+    float: none;
+    line-height: 1.4em;
+    padding: 10px 0;
   }
 
-  .links {
-    left: -50%;
-    position: relative;
-  }
+.links > li a {
+  color: #000;
+}
 
-  .links li {
-    float: left;
-  }
+.content {
+  padding-bottom: 140px;
+}
 
-  li:hover .additional-links {
-    display: block;
-  }
-
-  .additional-links {
-    bottom: 0;
-    display: none;
-    padding-bottom: 40px;
-    position: absolute;
-    width: 400px;
-  }
-
-    .additional-links li {
-      font-size: 1.2em;
-      float: none;
-      line-height: 1.4em;
-      padding: 10px 0;
-    }
-
-  .links > li a {
-    color: #000;
-  }
-
+.home .footer {
+  bottom: 0;
+  position: fixed;
 }
 
 /* Smaller viewports */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
 
   h1 {
     font-size: 4em;
@@ -129,35 +140,86 @@ ul {
     font-size: 2em;
   }
 
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .content {
+    padding-bottom: 0;
+  }
+
+  .copy-container {
+    padding: 0 20px;
+    width: auto;
+  }
+
   .footer {
     font-size: 1.4em;
     margin-top: 50px;
+    position: relative;
     text-align: center;
+    width: 100%;
   }
 
-  .links li {
-    text-align: center;
-  }
-
-    .additional-links li {
-      font-size: 0.8em;
-      float: none;
-      line-height: 1em;
-      padding: 10px 0;
+    .home .footer {
+      position: relative;
     }
 
-      .additional-links li a {
-        color: #666;
+  .links li {
+    float: none;
+    text-align: center;
+    width: auto;
+  }
+
+    .additional-links {
+      bottom: 0;
+      display: block;
+      margin-left: 0;
+      position: relative;
+      width: 100%;
+    }
+
+      .additional-links li {
+        font-size: 0.8em;
+        float: none;
+        line-height: 1em;
+        padding: 10px 0;
       }
 
+        .additional-links li a {
+          color: #666;
+        }
+
 }
 
-.links > li {
-  font-size: 0.8em;
-  padding: 0 15px;
-  position: relative;
+/* Page-specific styles */
+.home h2 {
+  font-size: 3em;
+  text-transform: lowercase;
 }
 
-  .links > li a:hover {
-    color: #0095FF;
-  }
+.home h2:before {
+  content: "("
+}
+
+.home h2:after {
+  content: ")"
+}
+
+.home .copy-container {
+  width: 400px;
+}
+
+  /* Smaller viewports */
+  @media only screen and (max-width: 800px) {
+
+    .home .copy-container {
+      max-width: 400px;
+      width: auto;
+    }
+
+  /*}*/

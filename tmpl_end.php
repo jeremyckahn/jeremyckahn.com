@@ -1,8 +1,13 @@
 <!-- end content -->
-      </div>
     </div>
     <div class="footer">
       <ul class="links center clearfix">
+        <li>
+          <h3><a href="/">Home</a></h3>
+        </li>
+        <li>
+          <h3><a href="/tutor">Tutoring</a></h3>
+        </li>
         <li>
           <h3><a href="https://github.com/jeremyckahn" target="_blank">Github</a></h3>
         </li>
