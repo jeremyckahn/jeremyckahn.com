@@ -28,7 +28,7 @@
   </ul>
   <p>The above points apply to me as well - I will share my screen and code as needed.</p>
   <h3>Interested?</h3>
-  <p>If you would like a tutoring session, please <a href="mailto:jeremyckahn@gmail.com?subject=Hi!%20Please%20tutor%20me!">email me</a> with the subject "Hi!  Please tutor me!" and we will schedule a session.  I'd like to limit the sessions to about a half hour, but I am flexible and will not cut you off abruptly.  Repeat sessions are welcomed.  I am generally available after normal work hours and on weekends.</p>
+  <p>If you would like a tutoring session, please <a href="mailto:jeremyckahn@gmail.com?subject=Hi!%20Please%20tutor%20me!">email me</a> with the subject "Hi!  Please tutor me!" and we will schedule a session.  I'd like to limit the sessions to about a half hour, but I am flexible and will not cut you off abruptly.  Repeat sessions are welcomed.  I am generally available after normal work hours and on weekends (PDT/UTC-7 timezone, you can use <a href="http://everytimezone.com/" target="_blank">everytimezone.com</a> to find your time difference).</p>
   <p>I look forward to helping you!</p>
 </div>
 <?php
