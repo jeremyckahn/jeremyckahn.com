@@ -61,6 +61,10 @@ ul {
   padding: 8px 0 8px 54px
 }
 
+em {
+  text-decoration: underline;
+}
+
 .main {
   position: relative;
   width: 800px;
