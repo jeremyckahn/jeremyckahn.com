@@ -5,7 +5,7 @@
 <h1 class="center">Free tutoring</h1>
 <h2 class="center">For HTML, CSS and JavaScript</h2>
 <div class="copy-container center">
-  <p>In an effort to help move the web forward and train the next generation of web developers, I am offering free tutoring sessions via <a href="http://www.google.com/+/learnmore/hangouts/onair.html" target="_blank">Google Hangouts</a>.  These sessions <em>will be recorded and shared publicly via YouTube</em>, so that everyone may watch and learn from them.</p>
+  <p>In an effort to help move the web forward and train the next generation of web developers, I am offering free tutoring sessions via <a href="http://www.google.com/+/learnmore/hangouts/onair.html" target="_blank">Google Hangouts</a>.  These sessions <a href="http://www.youtube.com/playlist?list=PLZ79_svgJXRf-PjGM2GUCCc158yOb5ku1" target="_blank"><em>will be recorded and shared publicly via YouTube</em></a>, so that everyone may watch and learn from them.</p>
   <h3>Who am I?</h3>
   <p>I'm Jeremy.  I'm a Web Developer at YouTube, have <a href="https://github.com/jeremyckahn/" target="_blank">written numerous JavaScript libraries</a>, am <a href="https://gist.github.com/paulmillr/2657075" target="_blank">among the most active users on Github</a> and have given talks at <a href="http://www.youtube.com/watch?v=OGZB7lq9-Mk" target="_blank">conferences</a> and <a href="http://www.youtube.com/watch?v=DVY1YMOhWn8" target="_blank">meetups</a>.</p>
   <h3>How does it work?</h3>
