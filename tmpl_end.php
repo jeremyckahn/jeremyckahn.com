@@ -32,7 +32,7 @@
           <h3><a href="http://files.jeremyckahn.com/jeremy_kahn_resume.pdf" target="_blank">Resume</a></h3>
         </li>
         <li>
-          <h3><a href="http://jeremyckahn.github.com/" target="_blank">Blog</a></h3>
+          <h3><a href="http://jeremyckahn.github.io/" target="_blank">Blog</a></h3>
         </li>
       </ul>
     </div>
