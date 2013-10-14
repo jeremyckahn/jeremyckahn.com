@@ -19,7 +19,7 @@
   </ul>
   <p>Of course, I will do my best to work with you on whatever front-end challenges you have.  My goal is to help spread knowledge of how to build better websites and applications.</p>
   <h3>Interested?</h3>
-  <p>If you would like a tutoring session, please <a href="mailto:jeremyckahn@gmail.com?subject=Hi!%20Please%20tutor%20me!">email me</a> with the subject "Hi!  Please tutor me!" and we will schedule a session.  I'd like to limit the sessions to about a half hour, but I am flexible and will not cut you off abruptly.  Repeat sessions are welcomed.  I am generally available on weekends.  I am based in San Francisco, which is in the PDT/UTC-7 timezone (you can use <a href="http://everytimezone.com/" target="_blank">everytimezone.com</a> to find your time difference).</p>
+  <p>If you would like a tutoring session, please <a href="mailto:jeremyckahn@gmail.com?subject=Hi!%20Please%20tutor%20me!">email me</a> with the subject "Hi!  Please tutor me!" and we will schedule a session.  I'd like to limit the sessions to about a half hour, but I am flexible and will not cut you off abruptly.  Repeat sessions are welcomed.  I am generally available on weekends.  I am based in Chicago, which is in the CDT/UTC-5 timezone (you can use <a href="http://everytimezone.com/" target="_blank">everytimezone.com</a> to find your time difference).</p>
   <p>I look forward to helping you!</p>
 </div>
 <?php
